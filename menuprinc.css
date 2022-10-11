@@ -1,0 +1,140 @@
+#coluna1{
+    display:flex;
+    flex-direction: column;
+}
+#container2{
+    display:flex;
+    flex-direction: row;
+}
+#container3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    background: linear-gradient(to right,rgb(88, 59, 4),rgb(182, 144, 39));
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+}
+#main-menu ul a{
+    font-size: 1em;
+    display: block;
+    line-height: 70px;
+    text-decoration: none;
+    background: #e2f106;
+    width: 250px;
+}
+#main-menu ul a:hover{
+    color: #e2f106;
+    background:#de003e;
+}
+h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h2{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h3{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 750px;
+}
+.imagem1{
+    width:300px;
+    height:200px;
+    margin-top: 10px;
+
+}
+.grupimagem1{
+    width:100px;
+    height:100px;
+    border-radius: 200px;
+    margin-left: 20em;
+}
+.grupimagem2{
+    width:100px;
+    height:100px;
+    border-radius: 200px;
+}
+.grupimagem3{
+    width:100px;
+    height:100px;
+    border-radius: 200px;
+    margin-right: 20em;
+}
+.bloco1{
+    border-radius: 10px; 
+    margin-right: 20px;
+}
+.bloco2{
+    font-size: 23px;
+    background: gainsboro;  
+    padding: 7px;
+    border-radius: 10px;  
+}
+.bloco3{
+    padding:2px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+@media(max-width:1652px){
+    h3{
+        margin-left: 550px;
+    }
+}
+@media(max-width:1300px){
+    h3{
+        margin-left: 350px;
+    }
+}
+@media(max-width:1000px){
+    #container2{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #container3{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    h3{
+        margin-left: 150px;
+    }
+    .grupimagem1{
+        margin-left: initial;
+    }
+    .grupimagem3{
+        margin-right: initial;
+    }
+}
+@media(max-width:500px){
+    h2{
+        margin-left: initial;
+    }
+    h3{
+        margin-left: initial;
+    }
+    .imagem1{
+        width:100px;
+        height:100px;
+    }
+}
+@media(max-width:300px){
+    h2{
+        font-size: initial;
+        }
+    h3{
+        font-size: initial;
+    }
+    #main-menu ul a{
+        width: initial;
+    }
+
+}
+
